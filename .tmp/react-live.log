@@ -1,0 +1,125 @@
+
+> ed-reserve-frontend@1.0.0 start
+> react-scripts start
+
+Starting the development server...
+
+Compiled successfully!
+
+You can now view ed-reserve-frontend in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.29.193:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Failed to compile.
+
+[eslint] 
+src\services\api.js
+Syntax error: Unexpected token, expected "," (14:52) (14:52)
+[1m[31mERROR[39m[22m in [1m./src/services/api.js[39m[22m
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\src\services\api.js: Unexpected token, expected "," (14:52)
+
+[0m [90m 12 |[39m
+ [90m 13 |[39m [36mconst[39m getCacheKey [33m=[39m (url[33m,[39m config [33m=[39m {}) [33m=>[39m {
+[31m[1m>[22m[39m[90m 14 |[39m   [36mconst[39m params [33m=[39m config[33m.[39mparams [33m?[39m [33mJSON[39m[33m.[39mstringify(con fig[33m.[39mparams) [33m:[39m [32m""[39m[33m;[39m
+ [90m    |[39m                                                     [31m[1m^[22m[39m
+ [90m 15 |[39m   [36mreturn[39m [32m`${url}${params}`[39m[33m;[39m
+ [90m 16 |[39m }[33m;[39m
+ [90m 17 |[39m[0m
+    at constructor (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:365:19)
+    at FlowParserMixin.raise (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:6599:19)
+    at FlowParserMixin.unexpected (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:6619:16)
+    at FlowParserMixin.expect (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:6899:12)
+    at FlowParserMixin.parseCallExpressionArguments (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:11243:14)
+    at FlowParserMixin.parseCoverCallAndAsyncArrowHead (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:11186:29)
+    at FlowParserMixin.parseSubscript (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:11120:19)
+    at FlowParserMixin.parseSubscript (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:3650:18)
+    at FlowParserMixin.parseSubscripts (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:11094:19)
+    at FlowParserMixin.parseSubscripts (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:3616:18)
+    at FlowParserMixin.parseExprSubscripts (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:11085:17)
+    at FlowParserMixin.parseUpdate (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:11066:21)
+    at FlowParserMixin.parseMaybeUnary (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:11046:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:10899:61)
+    at FlowParserMixin.parseExprOps (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:10904:23)
+    at FlowParserMixin.parseMaybeConditional (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:10881:23)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:10831:21)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:3549:18)
+    at C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:10800:39
+    at FlowParserMixin.allowInAnd (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:12426:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:10800:17)
+    at FlowParserMixin.tryParseConditionalConsequent (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:3023:29)
+    at FlowParserMixin.parseConditional (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:2984:14)
+    at FlowParserMixin.parseMaybeConditional (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:10885:17)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:10831:21)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:3549:18)
+    at C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:10800:39
+    at FlowParserMixin.allowInAnd (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:12421:16)
+    at FlowParserMixin.parseMaybeAssignAllowIn (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:10800:17)
+    at FlowParserMixin.parseVar (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:13384:91)
+    at FlowParserMixin.parseVarStatement (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:13230:10)
+    at FlowParserMixin.parseStatementContent (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:12851:23)
+    at FlowParserMixin.parseStatementLike (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:12767:17)
+    at FlowParserMixin.parseStatementLike (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:2918:24)
+    at FlowParserMixin.parseStatementListItem (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:12747:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:13316:61)
+    at FlowParserMixin.parseBlockBody (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:13309:10)
+    at FlowParserMixin.parseBlock (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:13297:10)
+    at FlowParserMixin.parseFunctionBody (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:12100:24)
+    at C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:2892:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:3068:16)
+    at FlowParserMixin.parseFunctionBody (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:2892:12)
+    at FlowParserMixin.parseArrowExpression (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:12075:10)
+    at FlowParserMixin.parseParenAndDistinguishExpression (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:11687:12)
+    at FlowParserMixin.parseParenAndDistinguishExpression (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:3591:18)
+    at FlowParserMixin.parseExprAtom (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:11331:23)
+    at FlowParserMixin.parseExprAtom (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:4764:20)
+    at FlowParserMixin.parseExprSubscripts (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:11081:23)
+    at FlowParserMixin.parseUpdate (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:11066:21)
+    at FlowParserMixin.parseMaybeUnary (C:\Users\Paavan Ahuja\Desktop\ED Reserve Admin\frontend\node_modules\@babel\parser\lib\index.js:11046:23)
+
+[1m[31mERROR[39m[22m in [1m[eslint] 
+src\services\api.js
+  Line 14:52:  Parsing [1m[31merror[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token, expected "," (14:52)
+
+[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
